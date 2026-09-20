@@ -9,7 +9,7 @@ import { Provider } from 'react-redux'
 import Ref from './context/Ref.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter  basename="/QuikNote">
     <Provider store={store}>
       <Ref>
         <App />
